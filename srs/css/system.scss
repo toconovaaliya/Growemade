@@ -1,0 +1,20 @@
+.system{
+  background: url("../images/header/header.png")center/cover no-repeat;
+  text-align: center;
+  padding: 188px 0 197px;
+  &__title{
+    @include text(43px,46px,#fff);
+  }
+  &__text{
+    @include text(15px,18px,#fff);
+    letter-spacing: 0.8px;
+    margin: 12px 0 28px;
+  }
+  .system__link{
+    @include text(15px,18px,#fff);
+    letter-spacing: 0.8px;
+    text-transform: uppercase;
+
+
+  }
+}

@@ -1,0 +1,35 @@
+.join{
+  padding-bottom: 39px;
+  text-align: center;
+  &__title{
+    @include text(34px,36px,#000);
+    text-align: center;
+  }
+  &__link{
+    @include text(13px,21px,#000);
+    letter-spacing: 1.4px;
+    text-align: center;
+    display: block;
+    margin: 44px 0 121px;
+  }
+  &__content{
+    text-align: center;
+    width: 100%;
+    padding: 120px 0;
+    background-color:#9AA8B1;
+    &__img{
+
+    }
+    &-title{
+      @include text(43px,58px,#fff);
+      margin: 24px 0;
+    }
+    &-subtitle{
+      @include text(14px,24px,#fff);
+      letter-spacing: 0.8px;
+
+    }
+  }
+
+
+}

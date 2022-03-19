@@ -1,0 +1,24 @@
+@import "../fonts/Bebas/stylesheet.css";
+@import "../fonts/opens/stylesheet.css";
+@import "enhancers";
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  list-style-type: none;
+}
+
+.container  {
+  width: 100%;
+  max-width: 941px;
+
+  margin: 0 auto;
+
+}
+
+
+
+@import "first-screen";
+@import "header";
+@import "story";

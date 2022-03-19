@@ -1,0 +1,22 @@
+.header{
+  padding: 25px 0;
+
+  &__navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  &__first{
+    display: flex;
+    column-gap: 24px;
+  }
+  .header__link{
+
+    @include text(15px,15px,  #000);
+    letter-spacing: 1.4px;
+    text-transform: uppercase;
+    transition: .5s;
+
+  }
+
+}

@@ -1,0 +1,35 @@
+.first__screen{
+  padding: 42px 0 71px;
+  background: url("../images/first-screen/bg .png") center/ cover no-repeat;
+  text-align: center;
+  &__name{
+    margin-bottom:318px ;
+
+  }
+  &__tittle{
+    font-family: $bebas, ;
+    font-size: 60px;
+    line-height: 70px;
+    letter-spacing: 5.70937px;
+    color: #FFFFFF;
+
+  }
+  &__subtitle{
+    font-family: $open;
+    font-size: 16px;
+    line-height: 19px;
+    color: #FFFFFF;
+    margin: 21px 0 221px ;
+  }
+&__scrollDown{
+  font-family: $open;
+  font-size: 11px;
+  line-height: 13px;
+  letter-spacing: 3.7px;
+  color: #FFFFFF;
+
+}
+
+
+}
+

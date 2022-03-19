@@ -1,0 +1,26 @@
+.header{
+  padding: 24px 0;
+  border: 1px solid #E6E6E6;
+  &__nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  &__menu{
+    display: flex;
+    column-gap: 40px;
+  }
+  &__link{
+    font-family: $open;
+    font-size: 12px;
+    line-height: 14px;
+    letter-spacing: 1.09091px;
+    color: #48555B;
+
+    &:hover{
+      color: $blue;
+    }
+
+  }
+
+}

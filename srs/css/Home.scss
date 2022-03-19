@@ -1,0 +1,18 @@
+.Home {
+   padding: 174px 0 185px;
+   background: url("../images/inspiration.png") center/cover no-repeat;
+   text-align: center;
+  &__title{
+    @include text(66px,70px,#fff);
+  }
+  &__subtitle{
+    @include text(14px,16px,#fff);
+    letter-spacing: 0.8px;
+    margin: 16px 0 31px;
+  }
+  &__link{
+    @include text(13px,15px,#fff);
+    letter-spacing: 1.4px;
+
+  }
+ }
